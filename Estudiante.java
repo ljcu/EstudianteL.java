@@ -5,7 +5,7 @@ import java.time.Period;
 import java.time.ZoneId;
 
 /**
- * La clase Estudiante representa a un estudiante con su nombre, fecha de nacimiento y notas de asignaturas.
+ * La clase Estudiante
  */
 public class Estudiante {
 
@@ -28,10 +28,7 @@ public class Estudiante {
         this.notaAsignatura3 = 0.0;
     }
 
-    /**
-     * Constructor alternativo que permite al usuario ingresar el nombre y la fecha de nacimiento.
-     * Utiliza la entrada estándar para obtener los datos.
-     */
+    
     public Estudiante() {
         Scanner scanner = new Scanner(System.in);
 
